@@ -81,7 +81,7 @@ const TableComponent = ({ memes }: { memes: MemesType[] }) => {
           return (
             <div className="flex flex-col mobile:w-16">
               <p className="text-bold text-sm break-all">
-                <a href={cellValue} target="_blank">
+                <a href={cellValue as string} target="_blank">
                   {cellValue}
                 </a>
               </p>

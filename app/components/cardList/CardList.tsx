@@ -16,7 +16,7 @@ const CardList = ({ memes }: { memes: MemesType[] }) => {
     }, []);
   
       if(!memesData.length){
-        return <p className='font-bold' >Loading Data...</p>
+        return <p className='font-bold text-amber-50' >Loading Data...</p>
       }
     
 
