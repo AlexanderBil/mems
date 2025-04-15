@@ -29,7 +29,6 @@ const ModalComponent = ({
       <Modal
         isOpen={isOpen}
         onOpenChange={onOpenChange}
-        className="mobile:mb-20"
       >
         <ModalContent className="align-start">
           {(onClose) => (
