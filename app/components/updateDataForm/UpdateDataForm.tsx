@@ -85,6 +85,7 @@ const UpdateDataForm = ({
           minLength={1}
           maxLength={2}
         />
+        <div className='flex items-center' >
         <Button
           color="primary"
           type="submit"
@@ -93,10 +94,12 @@ const UpdateDataForm = ({
           Update
         </Button>
         {submitted ? (
-          <div className="text-small mt-2 mb-4 text-emerald-500">
+          <div className="text-small mt-2 mb-4 text-emerald-500 ml-5">
             Data was updated
           </div>
         ) : null}
+        </div>
+
       </Form>
     </div>
   );
