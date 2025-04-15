@@ -7,8 +7,9 @@ import {
   ModalFooter,
 } from '@heroui/react';
 
-import UpdateDataForm from '../updateDataForm/UpdateDataForm';
+
 import { MemesType } from '../../types/types';
+import UpdateDataForm from '../updateDataForm/UpdateDataForm';
 
 const ModalComponent = ({
   isOpen,
